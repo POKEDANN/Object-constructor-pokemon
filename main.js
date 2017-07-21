@@ -39,16 +39,15 @@ Pikachu.healing();
 function pokemonNuevo(color, peso, cachete, sonrisa, habilidad, tipo, salud, ataques, estado){
 	this.color = color;
 	this.peso = peso;
-	this.cachete.color = cachete.color;
-	this.cachete.forma = cachete.forma;
+	this.cachete = {
+		color: cachete.color,
+		forma: cachete.forma
+	}
 	this.sonrisa = sonrisa;
 	this.habilidad = habilidad;
 	this.tipo = tipo;
 	this.salud = salud;
-	this.ataques.ataque1 = ataques.ataque1;
-	this.ataques.ataque2 = ataques.ataque2;
-	this.ataques.ataque3 = ataques.ataque3;
-	this.ataques.ataque4 = ataques.ataque4;
+	this.ataques = ataques;
 	this.estado = estado;
 }
 
