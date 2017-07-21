@@ -51,7 +51,7 @@ function pokemonNuevo(color, peso, cachete, sonrisa, habilidad, tipo, salud, ata
 	this.estado = estado;
 }
 
-var squirtle = new pokemonNuevo("azul",9,{color: "azul",forma:"no tiene"},true,"torrente","agua",100,{"pistola agua", "rayo burbuja", "doble equipo","rasguño"},"saludable");
+var squirtle = new pokemonNuevo("azul",9,{color: "azul",forma:"no tiene"},true,"torrente","agua",100,["pistola agua", "rayo burbuja", "doble equipo","rasguño"],"saludable");
 console.log(squirtle);
 
 
